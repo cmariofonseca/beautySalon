@@ -1,0 +1,66 @@
+.Navbar {
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+}
+
+.Navbar .Menu ul {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  transition: 1s;
+}
+
+.Background {
+  background-color: palevioletred;
+}
+
+.Navbar .Menu ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.Navbar .Menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Shrikhand';
+  font-size: 16px;
+}
+
+.Navbar .Icon {
+  width: 100%;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 0 20px;
+  cursor: pointer;
+  color: white;
+  display: none;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1043px) {
+  .Navbar .Menu > ul > li > a > img { display: none }
+}
+
+@media screen and (max-width: 905px) {
+
+  nav ul {
+    max-height: 0px;
+    background-color: pink;
+  }
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px 0;
+    text-align: center;
+  }
+
+  .Navbar .Icon {
+    display: block;
+  }
+
+}

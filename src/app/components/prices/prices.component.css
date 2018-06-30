@@ -1,0 +1,50 @@
+.Prices {
+  width: 100%;
+  background-image: url(../../../assets/funky-lines.png);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Prices .Header {
+  width: 100%;
+  padding: 5% 10% 2%;
+}
+
+.Prices > h3 {
+  margin-left: 10%;
+}
+
+.Prices .PricesList {
+  width: 100%;
+  padding: 1% 10%;
+  font-family: 'Montserrat';
+  font-size: 18px;
+}
+
+.Prices .PricesList .Item {
+  width: 70%;
+  background-color: rgba(240, 240, 240, 0.5);
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.Prices .Header .Aux {
+  font-family: 'Shrikhand';
+  color: #dcbaa1;
+  font-size: 20px;
+}
+
+.Prices .Header .Title {
+  font-family: 'Marck Script';
+  font-size: 60px;
+}
+
+.Prices .Header .Info {
+  margin-top: 3%;
+  font-family: 'Montserrat';
+  font-size: 20px;
+}
+
+.Prices .Header h3, p {
+  text-align: center;
+}

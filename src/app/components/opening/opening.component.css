@@ -1,0 +1,32 @@
+.Opening {
+  width: 100%;
+  background-image: url(../../../assets/funky-lines.png);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Opening .Header {
+  width: 100%;
+  padding: 5% 10% 2%;
+}
+
+.Opening .Header .Aux {
+  font-family: 'Shrikhand';
+  color: #dcbaa1;
+  font-size: 20px;
+}
+
+.Opening .Header .Title {
+  font-family: 'Marck Script';
+  font-size: 60px;
+}
+
+.Opening .Header .Info {
+  margin-top: 3%;
+  font-family: 'Montserrat';
+  font-size: 20px;
+}
+
+.Opening .Header h3, p {
+  text-align: center;
+}

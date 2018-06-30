@@ -1,0 +1,35 @@
+.Contact {
+  width: 100%;
+  background-image: url(../../../assets/pink_rice.png);
+}
+
+.Contact .Text {
+  width: 100%;
+  padding: 5% 10% 2%;
+}
+
+.Contact .Form {
+  width: 100%;
+  padding: 3% 15% 5%;
+}
+
+.Contact .Text .Aux {
+  font-family: 'Shrikhand';
+  color: #dcbaa1;
+  font-size: 20px;
+}
+
+.Contact .Text .Title {
+  font-family: 'Marck Script';
+  font-size: 60px;
+}
+
+.Contact .Text .Info {
+  margin-top: 3%;
+  font-family: 'Montserrat';
+  font-size: 20px;
+}
+
+.Contact .Text h3, p {
+  text-align: center;
+}

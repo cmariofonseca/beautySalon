@@ -1,0 +1,69 @@
+.About {
+  width: 100%;
+  background-image: url(../../../assets/funky-lines.png);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.About .Container1 {
+  width: 100%;
+  padding: 5% 10%;
+}
+
+.About .Container2 {
+  width: 100%;
+  z-index: 1;
+  display: inline-flex;
+}
+
+.About .Container2 .Text {
+  width: 50%;
+  padding: 5%;
+}
+
+.About .Container2 .Image {
+  width: 50%;
+}
+
+.About .Container2 img {
+  width: 100%;
+}
+
+.About .Aux {
+  font-family: 'Shrikhand';
+  color: #dcbaa1;
+  font-size: 20px;
+}
+
+.About .Title {
+  font-family: 'Marck Script';
+  font-size: 60px;
+}
+
+.About .Info {
+  margin-top: 3%;
+  font-family: 'Montserrat';
+  font-size: 20px;
+}
+
+.About h3, p {
+  text-align: center;
+}
+
+.About .Container1 > img {
+  text-align: center;
+}
+
+/* Media queries */
+@media screen and (max-width: 1043px) {
+  .About .Title { font-size: 40px; }
+}
+
+@media screen and (max-width: 600px) {
+  .About .Container2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .About .Container2 .Text { width:100%; }
+  .About .Container2 .Image { width: 100%; }
+}
